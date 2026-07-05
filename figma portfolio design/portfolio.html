@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shoeb Shaikh — Full Stack Engineer</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="bg-canvas"></canvas>
+<div class="bg-fade"></div>
+
+<div class="site">
+
+  <nav class="top">
+    <div class="mark">shoeb<span>.</span>sh</div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="links" id="navLinks">
+      <a href="#about">about</a>
+      <a href="#stack">stack</a>
+      <a href="#experience">experience</a>
+      <a href="#work">work</a>
+      <a href="#contact">contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-copy">
+      <div class="eyebrow">GET / HTTP/1.1 &nbsp;·&nbsp; 200 OK</div>
+      <h1>Shoeb Shaikh<br>builds the <span class="grad">whole request</span>,<br>not just one layer.</h1>
+      <p class="lede">
+        Full stack engineer working across <b>HTML, CSS, JavaScript &amp; Bootstrap</b> on the interface,
+        <b>PHP &amp; Laravel</b> in the logic layer, and <b>MySQL</b> at the bedrock — every request
+        handled end to end.
+      </p>
+      <div class="cta-row">
+        <a href="#work" class="btn-signal">View the work →</a>
+        <a href="#contact" class="btn-ghost">Get in touch</a>
+      </div>
+      <div class="scroll-hint"><div class="bar"></div> scroll to descend the stack</div>
+    </div>
+
+    <div class="hero-visual">
+      <canvas id="hero-canvas"></canvas>
+      <div class="hv-label">interface · logic · data</div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="stack-section" id="about" data-reveal>
+    <div class="sec-head">
+      <span class="sec-num">01</span>
+      <h2 class="sec-title">Request</h2>
+      <span class="sec-kicker">who's handling this</span>
+    </div>
+    <div class="about-grid">
+      <div>
+        <p>I'm <b>Shoeb Shaikh</b>, a full stack developer who thinks of a product as a single
+        pipeline — a request comes in through the interface, gets reasoned about in the logic
+        layer, and settles somewhere durable in the data layer. I like owning all three, because
+        the gaps between them are usually where bugs and slow pages live.</p>
+        <p>Day to day that means shipping <b>Bootstrap-driven, responsive front ends</b>, wiring
+        them to <b>Laravel</b> applications with clean routes and services, and designing
+        <b>MySQL</b> schemas that don't fall over once real traffic hits them.</p>
+      </div>
+      <ul class="fact-list">
+        <li><span>Focus</span><span>Full stack web development</span></li>
+        <li><span>Frontend</span><span>HTML · CSS · JS · Bootstrap</span></li>
+        <li><span>Backend</span><span>PHP · Laravel</span></li>
+        <li><span>Data</span><span>MySQL</span></li>
+        <li><span>Based in</span><span>Mumbai, India</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- STACK -->
+  <section class="stack-section" id="stack" data-reveal>
+    <div class="sec-head">
+      <span class="sec-num logic">02</span>
+      <h2 class="sec-title">Process</h2>
+      <span class="sec-kicker">the three layers</span>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="layer-card layer-front">
+          <div class="lc-label">Layer 01 — Interface</div>
+          <h3>What the user touches</h3>
+          <ul>
+            <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Bootstrap</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="layer-card layer-logic">
+          <div class="lc-label">Layer 02 — Logic</div>
+          <h3>What makes the decisions</h3>
+          <ul>
+            <li>PHP</li><li>Laravel</li><li>REST APIs</li><li>Auth &amp; sessions</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="layer-card layer-data">
+          <div class="lc-label">Layer 03 — Data</div>
+          <h3>What remembers everything</h3>
+          <ul>
+            <li>MySQL</li><li>Schema design</li><li>Query optimisation</li><li>Migrations</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="stack-section" id="experience" data-reveal>
+    <div class="sec-head">
+      <span class="sec-num data">03</span>
+      <h2 class="sec-title">Experience</h2>
+      <span class="sec-kicker">where the requests were real</span>
+    </div>
+
+    <div class="exp-intro">
+      <div class="company-card">
+        <div class="cc-label">Company</div>
+        <h3>Alive Inc.</h3>
+        <p class="cc-tagline">Web Design · Software Development · MLM Software · Ecommerce Websites · Mobile App Development</p>
+        <p class="cc-address">
+          1st Floor, Fantasia Business Park, Nano Wing, F-85,<br>
+          Near Inorbit Mall, Sector 30A, Vashi,<br>
+          Navi Mumbai, Maharashtra 400703, India
+        </p>
+        <a href="https://aliveinc.in/" target="_blank" rel="noopener" class="cc-link">aliveinc.in →</a>
+      </div>
+
+      <div class="timeline">
+        <div class="t-line"></div>
+        <div class="t-node n-front">
+          <div class="t-dot"></div>
+          <div class="t-role">Internship</div>
+          <div class="t-meta">Alive Inc. · 3 months</div>
+          <p>Onboarded onto live client codebases, learning the company's PHP/MySQL conventions
+          while shipping small dynamic features end to end.</p>
+        </div>
+        <div class="t-node n-logic">
+          <div class="t-dot"></div>
+          <div class="t-role">Junior Full Stack Developer</div>
+          <div class="t-meta">Alive Inc. · 3 months</div>
+          <p>Took ownership of the company's own website rebuild and a custom CMS, then moved
+          into CRM feature work and client WordPress builds.</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="exp-summary">
+      Over a 6-month run at <b>Alive Inc.</b>, I went from intern to trusted full stack developer —
+      rebuilding the company's flagship website from scratch, designing a custom CMS
+      (<b>AliveCMS</b>) that non-technical staff use to manage content without touching code, and
+      shipping feature work on the company's CRM (<b>AliveCRM</b>). Alongside that, I built and
+      customised several client sites on both custom PHP stacks and WordPress — covering
+      everything from database schema design in <b>phpMyAdmin</b> to responsive UI, SEO, and
+      performance tuning.
+    </p>
+
+    <div class="highlight-row">
+      <div class="highlight-chip"><span class="hc-dot"></span>Company website rebuilt from scratch</div>
+      <div class="highlight-chip"><span class="hc-dot"></span>Custom CMS designed &amp; shipped — AliveCMS</div>
+      <div class="highlight-chip"><span class="hc-dot"></span>CRM features built for AliveCRM</div>
+      <div class="highlight-chip"><span class="hc-dot"></span>6 live production sites delivered</div>
+    </div>
+
+    <div class="exp-grid">
+      <div class="exp-card c-front">
+        <div class="ec-index">01 — Company Website</div>
+        <h4>Alive Inc.</h4>
+        <p>Built the company's official website fully from scratch: dynamic PHP/MySQL backend,
+        reusable content architecture, dynamic service pages, and CMS-driven image management —
+        with performance, responsiveness and SEO tuned throughout.</p>
+        <div class="ec-tags"><span>PHP</span><span>MySQL</span><span>Bootstrap</span><span>jQuery</span></div>
+        <a href="https://aliveinc.in/" target="_blank" rel="noopener" class="ec-link">Visit live site →</a>
+      </div>
+
+      <div class="exp-card c-logic">
+        <div class="ec-index">02 — Custom CMS</div>
+        <h4>AliveCMS</h4>
+        <p>Designed and built a custom CMS from the ground up for the Insights section — a
+        drag-and-drop page builder in the spirit of Elementor, blog management, image uploads,
+        SEO metadata, and full CRUD for non-technical editors.</p>
+        <div class="ec-tags"><span>PHP</span><span>MySQL</span><span>AJAX</span><span>CMS</span></div>
+        <a href="https://aliveinc.in/insights" target="_blank" rel="noopener" class="ec-link">Visit live site →</a>
+      </div>
+
+      <div class="exp-card c-data">
+        <div class="ec-index">03 — CRM Enhancement</div>
+        <h4>AliveCRM</h4>
+        <p>Extended the company's CRM with an Admin Notes and Super Admin Notes system, plus
+        lead-attached notes — tightening the lead-management workflow for the sales team.</p>
+        <div class="ec-tags"><span>PHP</span><span>MySQL</span><span>REST API</span></div>
+        <a href="https://alivecrm.com/" target="_blank" rel="noopener" class="ec-link">Visit live site →</a>
+      </div>
+
+      <div class="exp-card c-front">
+        <div class="ec-index">04 — WordPress Build</div>
+        <h4>Terna Life</h4>
+        <p>Developed the full WordPress site from scratch — theme customisation, a fully
+        responsive UI, performance optimisation, and a content management setup handed off to
+        the client's own team.</p>
+        <div class="ec-tags"><span>WordPress</span><span>Responsive Design</span></div>
+        <a href="https://ternalife.com/" target="_blank" rel="noopener" class="ec-link">Visit live site →</a>
+      </div>
+
+      <div class="exp-card c-logic">
+        <div class="ec-index">05 — Custom Functionality</div>
+        <h4>Mumbai Tapas</h4>
+        <p>Implemented custom WordPress functionality: separate templates per news category, a
+        dedicated video-news section, and dynamic, backend-driven news management.</p>
+        <div class="ec-tags"><span>WordPress</span><span>Elementor</span><span>Custom Templates</span></div>
+        <a href="https://mumbaitapas.co.in/" target="_blank" rel="noopener" class="ec-link">Visit live site →</a>
+      </div>
+
+      <div class="exp-card c-data">
+        <div class="ec-index">06 — Additional Builds</div>
+        <h4>Client WordPress Projects</h4>
+        <p>Customisation, custom page development, UI improvements, responsive layouts and
+        backend/performance work across additional client sites.</p>
+        <div class="ec-tags"><span>WordPress</span><span>UI/UX</span><span>Performance</span></div>
+        <a href="https://veltrixaretail.com/" target="_blank" rel="noopener" class="ec-link">veltrixaretail.com →</a>
+        <a href="https://pratiktigote.in/" target="_blank" rel="noopener" class="ec-link">pratiktigote.in →</a>
+      </div>
+    </div>
+
+    <div class="badge-cloud">
+      <span>PHP</span><span>MySQL</span><span>phpMyAdmin</span><span>HTML5</span><span>CSS3</span>
+      <span>JavaScript</span><span>jQuery</span><span>Bootstrap</span><span>WordPress</span>
+      <span>Elementor</span><span>AJAX</span><span>REST API</span><span>Git</span>
+      <span>Responsive Design</span><span>CMS Development</span><span>CRUD Operations</span>
+      <span>SEO Optimization</span>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="stack-section" id="work" data-reveal>
+    <div class="sec-head">
+      <span class="sec-num data">04</span>
+      <h2 class="sec-title">Response</h2>
+      <span class="sec-kicker">what came back</span>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <a href="#" class="project-card">
+          <div class="pc-req">POST /projects/01</div>
+          <div class="pc-status">200 OK</div>
+          <h3>Project One</h3>
+          <p>Short description of the problem this solved and the role you played — swap in your
+          real case study here.</p>
+          <div class="pc-tags"><span>Laravel</span><span>MySQL</span><span>Bootstrap</span></div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="#" class="project-card">
+          <div class="pc-req">POST /projects/02</div>
+          <div class="pc-status">200 OK</div>
+          <h3>Project Two</h3>
+          <p>Short description of the problem this solved and the role you played — swap in your
+          real case study here.</p>
+          <div class="pc-tags"><span>PHP</span><span>JS</span><span>MySQL</span></div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="#" class="project-card">
+          <div class="pc-req">POST /projects/03</div>
+          <div class="pc-status">200 OK</div>
+          <h3>Project Three</h3>
+          <p>Short description of the problem this solved and the role you played — swap in your
+          real case study here.</p>
+          <div class="pc-tags"><span>Laravel</span><span>Bootstrap</span><span>REST</span></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="stack-section" id="contact" data-reveal>
+    <div class="sec-head">
+      <span class="sec-num conn">05</span>
+      <h2 class="sec-title">Connection</h2>
+      <span class="sec-kicker">keep it open</span>
+    </div>
+    <div class="contact-wrap">
+      <h2>Have a request worth handling? Let's open the connection.</h2>
+      <div class="contact-links">
+        <a href="mailto:hello@shoebshaikh.dev">hello@shoebshaikh.dev</a>
+        <a href="#">github.com/shoebshaikh</a>
+        <a href="#">linkedin.com/in/shoebshaikh</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 Shoeb Shaikh — Full Stack Engineer</span>
+    <span>Built with HTML, CSS, JS, Three.js &amp; Lenis</span>
+  </footer>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
